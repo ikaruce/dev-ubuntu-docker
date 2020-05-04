@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  ubuntu:
+    image: ikaruce/ubuntu:20.04
+    ports:
+      - "22:22"
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./volume:/home
+    command: tail -F /dev/null
