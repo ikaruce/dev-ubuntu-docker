@@ -9,6 +9,10 @@ $ docker run -d your_tag:your_version
 or 
 # pull and run 
 $ docker run -d ikaruce/ubuntu:20.04
+
+or 
+# docker-compose 
+$ docker-compose up -d 
 ```
 
 ## docker-image 
