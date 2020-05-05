@@ -8,5 +8,4 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./volume:/home
-    command: tail -F /dev/null
+      - ./volume/workspace:/root/workspace
